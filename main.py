@@ -74,7 +74,8 @@ def turn_a_single_number_into_roman(arabic_single_symbol, arabic_single_symbol_c
 
 
 def arabic_to_roman(arabic_number):
-    #Моя геніальна функція, взагалі то геніальність в функції turn_a_single_number_into_roman
+
+turn_a_single_number_into_roman
     roman_result =""
     for i in range(len(arabic_number)-1, -1, -1):
         roman_result = turn_a_single_number_into_roman(int(arabic_number[i]), len(arabic_number)-i-1) + roman_result
